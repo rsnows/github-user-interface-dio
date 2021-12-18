@@ -8,6 +8,8 @@ const Repositories = () => {
 				<S.WrapperTab>Repositories</S.WrapperTab>
 				<S.WrapperTab>Starred</S.WrapperTab>
 			</S.WrapperTabList>
+			<S.WrapperTabPanel>panel repositories</S.WrapperTabPanel>
+			<S.WrapperTabPanel>panel starred</S.WrapperTabPanel>
 		</S.WrapperTabs>
 	);
 }
