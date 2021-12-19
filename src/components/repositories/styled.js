@@ -33,7 +33,7 @@ export const WrapperTab = styled(Tab)`
 		box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
 	}
 `;
-WrapperTabList.tabsRole = 'Tab';
+WrapperTab.tabsRole = 'Tab';
 
 export const WrapperTabPanel = styled(TabPanel)`
 	padding: 16px;
@@ -45,4 +45,4 @@ export const WrapperTabPanel = styled(TabPanel)`
 		display: block;
 	}
 `;
-WrapperTabList.tabsRole = 'TabPanel';
+WrapperTabPanel.tabsRole = 'TabPanel';
