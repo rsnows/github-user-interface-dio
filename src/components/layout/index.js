@@ -3,6 +3,7 @@ import * as S from './styled'
 import Header from '../header'
 
 const Layout = ({ children }) => {
+
 	return (
 		<S.WrapperLayout>
 			<Header />
