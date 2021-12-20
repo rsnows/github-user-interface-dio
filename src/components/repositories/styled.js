@@ -22,7 +22,7 @@ export const WrapperTab = styled(Tab)`
 	user-select: none;
 	cursor: pointer;
 	z-index: 99999;
-	bakcground-color: #fff;
+	background-color: #fff;
 	margin: 8px;
 
 	&:focus {
@@ -46,3 +46,9 @@ export const WrapperTabPanel = styled(TabPanel)`
 	}
 `;
 WrapperTabPanel.tabsRole = 'TabPanel';
+
+export const WrapperList = styled.div`
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+`

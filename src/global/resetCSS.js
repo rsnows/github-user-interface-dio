@@ -40,6 +40,7 @@ html {
 body {
   margin: 0;
   font-family: roboto, sans-serif;
+  background-color: #E9FFEC;
 }
 
 /**
